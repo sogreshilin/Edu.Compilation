@@ -1,5 +1,8 @@
 package main.ru.nsu.ccfit.sogreshilin.calculator;
 
+/**
+ * Parser class parses and calculates values.
+ */
 public class Parser {
     private Lexer lexer;
     private Lexeme current;
