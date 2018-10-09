@@ -2,6 +2,7 @@ package main.ru.nsu.ccfit.sogreshilin.calculator;
 
 /**
  * Parser class parses and calculates values.
+ * Throws ParserError if happen during parsing.
  */
 public class Parser {
     private Lexer lexer;
